@@ -1,0 +1,62 @@
+# Virtual environment
+
+.venv/
+venv/
+env/
+
+# Python cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+
+.env
+.env.*
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE settings
+
+.vscode/
+.idea/
+
+# Raw and processed data
+
+data/raw/*
+data/processed/*
+
+# Trained model artifacts
+
+models/*.pkl
+models/*.joblib
+models/*.json
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Python packaging
+
+build/
+dist/
+*.egg-info/
+
+# Testing and coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
